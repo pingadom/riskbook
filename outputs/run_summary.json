@@ -1,0 +1,82 @@
+{
+  "artifact_sha256": "c3bbcfc315723ff6",
+  "as_of_date": "2025-12-30",
+  "grounded": true,
+  "n_equities": 30,
+  "n_findings": 12,
+  "n_tool_calls": 21,
+  "n_trading_days": 2009,
+  "snapshots": {
+    "cvar_opt": {
+      "ann_return": 0.15839684527669728,
+      "ann_vol": 0.15726355595145383,
+      "as_of_date": "2025-12-30",
+      "avg_monthly_turnover": 0.06298211863879877,
+      "christoffersen_p_value": 9.931331295454093e-06,
+      "effective_n": 10.290097544384095,
+      "kupiec_p_value": 0.0032455573867427034,
+      "max_drawdown": -0.29009834356115405,
+      "max_sector_weight": 0.2665285888797436,
+      "sharpe": 1.0072063061170593,
+      "strategy": "cvar_opt",
+      "var_95_breach_rate": 0.06602162777461583
+    },
+    "equal_weight": {
+      "ann_return": 0.21719861587417166,
+      "ann_vol": 0.18607600137371041,
+      "as_of_date": "2025-12-30",
+      "avg_monthly_turnover": 0.023670421279422548,
+      "christoffersen_p_value": 0.0012912407027413364,
+      "effective_n": 30.0,
+      "kupiec_p_value": 0.5174454483780805,
+      "max_drawdown": -0.3269763305150831,
+      "max_sector_weight": 0.13333333333333333,
+      "sharpe": 1.1672575413846913,
+      "strategy": "equal_weight",
+      "var_95_breach_rate": 0.0466704610130905
+    },
+    "hrp": {
+      "ann_return": 0.17191019167899824,
+      "ann_vol": 0.16888700164893994,
+      "as_of_date": "2025-12-30",
+      "avg_monthly_turnover": 0.08057788132740949,
+      "christoffersen_p_value": 0.00018435986261411408,
+      "effective_n": 23.352774318235973,
+      "kupiec_p_value": 0.7538325649841763,
+      "max_drawdown": -0.31413197810142957,
+      "max_sector_weight": 0.14508421225304624,
+      "sharpe": 1.0179006673132993,
+      "strategy": "hrp",
+      "var_95_breach_rate": 0.048377916903813316
+    },
+    "mv_ledoit_wolf": {
+      "ann_return": 0.15272509210146157,
+      "ann_vol": 0.16358427210731769,
+      "as_of_date": "2025-12-30",
+      "avg_monthly_turnover": 0.03145689207491789,
+      "christoffersen_p_value": 2.2498434188111816e-05,
+      "effective_n": 12.290508870434182,
+      "kupiec_p_value": 0.1305406850529145,
+      "max_drawdown": -0.3401950235101534,
+      "max_sector_weight": 0.25404960871083926,
+      "sharpe": 0.9336172123030748,
+      "strategy": "mv_ledoit_wolf",
+      "var_95_breach_rate": 0.05805350028457598
+    },
+    "mv_sample": {
+      "ann_return": 0.1504435402313271,
+      "ann_vol": 0.1575863658085574,
+      "as_of_date": "2025-12-30",
+      "avg_monthly_turnover": 0.09406841270362676,
+      "christoffersen_p_value": 0.014136794124972152,
+      "effective_n": 9.866498112701192,
+      "kupiec_p_value": 0.5054314789847942,
+      "max_drawdown": -0.29953256263796524,
+      "max_sector_weight": 0.2357451991696853,
+      "sharpe": 0.9546735814321164,
+      "strategy": "mv_sample",
+      "var_95_breach_rate": 0.053500284575981785
+    }
+  },
+  "ungrounded_claims": []
+}
